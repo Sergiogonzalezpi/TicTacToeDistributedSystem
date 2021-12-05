@@ -27,8 +27,8 @@ import javax.swing.*;
 
 		this.game = game;
 		try {
-			myTile = ImageIO.read(new File("resources/tictactoe/circle2.gif"));
-			opponentTile = ImageIO.read(new File("resources/tictactoe/cross2.gif"));
+			myTile = ImageIO.read(new File("resources/circle2.gif"));
+			opponentTile = ImageIO.read(new File("resources/cross2.gif"));
 			this.addMouseListener(new BoardMouseListener(this));
 
 		} catch (IOException e) {
